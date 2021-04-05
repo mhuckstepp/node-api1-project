@@ -1,5 +1,7 @@
 # Node API 1 Project Starter Code
 
+<!-- change -->
+
 ## Introduction
 
 - Building a RESTful API.
@@ -65,7 +67,7 @@ You can find them inside `api/users/model.js`. All of these functions return Pro
 - `findById` Takes an `id` and resolves to the user with that id (or null if the id does not exist).
 - `insert` Takes a new user `{ name, bio }` and resolves to the the newly created user `{ id, name, bio }`.
 - `update` Takes an `id` and an existing user `{ name, bio }` and resolves the updated user `{ id, name, bio}` (or null if the id does not exist).
-- `remove` Takes an `id`  and resolves to the deleted user `{ id, name, bio }`.
+- `remove` Takes an `id` and resolves to the deleted user `{ id, name, bio }`.
 
 #### Endpoint Specifications
 
